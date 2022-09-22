@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>Document</title>
+    <style>
+    #contact{
+        width: 100%;
+        height:100vh;/*innner height*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .con1{
+        display: flex;
+        background: #3BACB6;
+        flex-direction: column;
+        padding:2vw 4vw;/*inner width*/
+        width:90%;
+        max-width: 600px;
+        border-radius: 10px;
+      
+      
+      }
+      form input, form textarea{
+        border:0;
+        margin:10px 0;
+        padding:20px;
+        outline:nome;
+        font-size: 16px;
+      }
+      #button{
+        padding: 15px;
+        background-color:#ADD8E6;
+        font-size: 18px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        width:150px;
+        margin:20px auto 0;
+        border-radius: 30px;
+      }
+      </style>
+</head>
+<body>
+    <div id="contact">
+        <div class="con">
+          <h1 class="con" style="position: relative;left:100px;color:#3BACB6">CONTACT US</h1>
+           <form class="con1" method="post">
+             <input type="text" id="name" placeholder="Your name" required>
+             <input type="email" id="email" placeholder="Email id" required>
+             <input type="text" id="phone" placeholder="Phone no." required>
+             <textarea id="message" rows="4" placeholder="How can i help you?"></textarea>
+             <input type="button" id="button" value="Send Mail" />
+           </form>
+        </div>
+      
+      </div>
+</body>
+</html>

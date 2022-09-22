@@ -1,0 +1,115 @@
+body{
+    background-color: #CBA0AE;
+}
+
+#id{
+    padding-top: 10px;
+    padding-bottom: 20px;;
+}
+#navbar li:hover{
+    color: black;
+    background-color: #80558C;
+}
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow:hidden;/*The overflow property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.*/
+  position: relative;
+  
+  }
+  li{
+    list-style-type: none;
+  float:left;
+  color: white;
+  cursor: pointer;
+  padding:10px;
+  
+  }
+  li a{
+    color: #FCF8E8;
+   font-size:30px;
+   padding: 10px 20px;
+    text-decoration: none;
+    font-style: bold;
+    display: inline-block;
+    position: relative;
+    bottom: 1px;/* only if u put relative we can use left bottom and others*/
+    font-size: 17px;
+  }
+.r1{
+    display: inline-block;
+    position: relative;
+    left:200px;
+}
+.r2{
+    display:inline-block ;
+    position: relative;
+    left:500px;
+}
+h1{
+    display: inline-block;
+    position: relative;
+    left:70px;
+    bottom:150px;
+    font-family:  Helvetica, sans-serif;
+    color:#80558C;
+
+}
+ img{
+    display: inline-block;
+    width:236px;
+    height:236px;
+    opacity:0.8;
+    transition: 1s ease;
+    
+ }
+ img:hover{
+    opacity:3;
+    transition: 1s ease;
+    }
+ .first{
+    display: inline-block;
+ }
+
+
+
+
+ .r3{
+    display: inline-block;
+    position: relative;
+    left:200px;
+}
+.r4{
+    display:inline-block ;
+    position: relative;
+    left:500px;
+}
+
+ 
+ .second{
+    display: inline-block;
+ }
+
+
+
+
+ .r5{
+    display: inline-block;
+    position: relative;
+    left:200px;
+}
+.r6{
+    display:inline-block ;
+    position: relative;
+    left:500px;
+}
+
+
+ .third{
+    display: inline-block;
+ }
+
+
+
+
